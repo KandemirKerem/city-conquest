@@ -1,0 +1,16 @@
+{
+  "name": "silgi-savaslari-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "d3-delaunay": "^6.0.4",
+    "express": "^4.21.2",
+    "silgi-savaslari": "file:..",
+    "socket.io": "^4.8.1"
+  }
+}
